@@ -31,6 +31,9 @@ body {
 .col-md-6 {
     width: 50%;
 }
+.col-md-9 {
+    width: 75%;
+}
 [class*="col-"] {
     float: left;
     padding-left: 15px;
@@ -60,4 +63,18 @@ body {
 .menu a:hover {
     background-color: #2c71b8;
     color:white;
+}
+.form-search {
+    border:1px solid #2c71b8;
+    margin-top: 10px;
+    padding: 4px;
+}
+.form-search input {
+    border:none;
+    background: transparent;
+}
+.form-search input:focus {
+    border:none;
+    outline: none;
+    
 }
